@@ -14,6 +14,19 @@
 		CD7750F61D0085450052F454 /* lab03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD7750F41D0085450052F454 /* lab03.xcdatamodeld */; };
 		CD7750F81D0085450052F454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7750F71D0085450052F454 /* Assets.xcassets */; };
 		CD7750FB1D0085450052F454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7750F91D0085450052F454 /* LaunchScreen.storyboard */; };
+		CD7751121D00BBC00052F454 /* img_arya_stark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD7751051D00BBC00052F454 /* img_arya_stark.jpg */; };
+		CD7751131D00BBC00052F454 /* img_bran_stark.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD7751061D00BBC00052F454 /* img_bran_stark.jpeg */; };
+		CD7751141D00BBC00052F454 /* img_cersei_lannister.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CD7751071D00BBC00052F454 /* img_cersei_lannister.jpeg */; };
+		CD7751151D00BBC00052F454 /* img_daenerys_targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD7751081D00BBC00052F454 /* img_daenerys_targaryen.jpg */; };
+		CD7751161D00BBC00052F454 /* img_drogo_hbo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD7751091D00BBC00052F454 /* img_drogo_hbo.jpg */; };
+		CD7751171D00BBC00052F454 /* img_jon_nieve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD77510A1D00BBC00052F454 /* img_jon_nieve.jpg */; };
+		CD7751181D00BBC00052F454 /* img_melisandre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD77510B1D00BBC00052F454 /* img_melisandre.jpg */; };
+		CD7751191D00BBC00052F454 /* icn_no_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77510C1D00BBC00052F454 /* icn_no_selected.png */; };
+		CD77511B1D00BBC00052F454 /* img_sansa_stark.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77510E1D00BBC00052F454 /* img_sansa_stark.png */; };
+		CD77511C1D00BBC00052F454 /* icn_selected_m.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77510F1D00BBC00052F454 /* icn_selected_m.png */; };
+		CD77511D1D00BBC00052F454 /* icn_selected_v.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7751101D00BBC00052F454 /* icn_selected_v.png */; };
+		CD77511E1D00BBC00052F454 /* img_tyrion_lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD7751111D00BBC00052F454 /* img_tyrion_lannister.jpg */; };
+		CD7751201D00C1540052F454 /* img_ramsay_Bolton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD77511F1D00C1540052F454 /* img_ramsay_Bolton.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		CD7750F71D0085450052F454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD7750FA1D0085450052F454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD7750FC1D0085450052F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7751051D00BBC00052F454 /* img_arya_stark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_arya_stark.jpg; sourceTree = "<group>"; };
+		CD7751061D00BBC00052F454 /* img_bran_stark.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_bran_stark.jpeg; sourceTree = "<group>"; };
+		CD7751071D00BBC00052F454 /* img_cersei_lannister.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_cersei_lannister.jpeg; sourceTree = "<group>"; };
+		CD7751081D00BBC00052F454 /* img_daenerys_targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_daenerys_targaryen.jpg; sourceTree = "<group>"; };
+		CD7751091D00BBC00052F454 /* img_drogo_hbo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_drogo_hbo.jpg; sourceTree = "<group>"; };
+		CD77510A1D00BBC00052F454 /* img_jon_nieve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_jon_nieve.jpg; sourceTree = "<group>"; };
+		CD77510B1D00BBC00052F454 /* img_melisandre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_melisandre.jpg; sourceTree = "<group>"; };
+		CD77510C1D00BBC00052F454 /* icn_no_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_no_selected.png; sourceTree = "<group>"; };
+		CD77510E1D00BBC00052F454 /* img_sansa_stark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_sansa_stark.png; sourceTree = "<group>"; };
+		CD77510F1D00BBC00052F454 /* icn_selected_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_selected_m.png; sourceTree = "<group>"; };
+		CD7751101D00BBC00052F454 /* icn_selected_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_selected_v.png; sourceTree = "<group>"; };
+		CD7751111D00BBC00052F454 /* img_tyrion_lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_tyrion_lannister.jpg; sourceTree = "<group>"; };
+		CD77511F1D00C1540052F454 /* img_ramsay_Bolton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_ramsay_Bolton.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,7 @@
 		CD7750E71D0085450052F454 /* lab03 */ = {
 			isa = PBXGroup;
 			children = (
+				CD7751041D00BBC00052F454 /* imgs */,
 				CD7751031D0087050052F454 /* Controllers */,
 				CD7751021D0086F60052F454 /* Main */,
 				CD7750F11D0085450052F454 /* Main.storyboard */,
@@ -96,6 +123,26 @@
 				CD7750EF1D0085450052F454 /* Start.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CD7751041D00BBC00052F454 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				CD77511F1D00C1540052F454 /* img_ramsay_Bolton.jpg */,
+				CD77510C1D00BBC00052F454 /* icn_no_selected.png */,
+				CD77510F1D00BBC00052F454 /* icn_selected_m.png */,
+				CD7751101D00BBC00052F454 /* icn_selected_v.png */,
+				CD7751051D00BBC00052F454 /* img_arya_stark.jpg */,
+				CD7751061D00BBC00052F454 /* img_bran_stark.jpeg */,
+				CD7751071D00BBC00052F454 /* img_cersei_lannister.jpeg */,
+				CD7751081D00BBC00052F454 /* img_daenerys_targaryen.jpg */,
+				CD7751091D00BBC00052F454 /* img_drogo_hbo.jpg */,
+				CD77510A1D00BBC00052F454 /* img_jon_nieve.jpg */,
+				CD77510B1D00BBC00052F454 /* img_melisandre.jpg */,
+				CD77510E1D00BBC00052F454 /* img_sansa_stark.png */,
+				CD7751111D00BBC00052F454 /* img_tyrion_lannister.jpg */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +202,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7751171D00BBC00052F454 /* img_jon_nieve.jpg in Resources */,
 				CD7750FB1D0085450052F454 /* LaunchScreen.storyboard in Resources */,
 				CD7750F81D0085450052F454 /* Assets.xcassets in Resources */,
+				CD7751121D00BBC00052F454 /* img_arya_stark.jpg in Resources */,
+				CD7751191D00BBC00052F454 /* icn_no_selected.png in Resources */,
+				CD7751151D00BBC00052F454 /* img_daenerys_targaryen.jpg in Resources */,
+				CD77511E1D00BBC00052F454 /* img_tyrion_lannister.jpg in Resources */,
+				CD7751141D00BBC00052F454 /* img_cersei_lannister.jpeg in Resources */,
+				CD77511D1D00BBC00052F454 /* icn_selected_v.png in Resources */,
 				CD7750F31D0085450052F454 /* Main.storyboard in Resources */,
+				CD7751201D00C1540052F454 /* img_ramsay_Bolton.jpg in Resources */,
+				CD77511B1D00BBC00052F454 /* img_sansa_stark.png in Resources */,
+				CD7751131D00BBC00052F454 /* img_bran_stark.jpeg in Resources */,
+				CD7751161D00BBC00052F454 /* img_drogo_hbo.jpg in Resources */,
+				CD77511C1D00BBC00052F454 /* icn_selected_m.png in Resources */,
+				CD7751181D00BBC00052F454 /* img_melisandre.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +382,7 @@
 				CD7751011D0085450052F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
