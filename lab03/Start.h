@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Start : UIViewController
+@interface Start : UIViewController{
+    IBOutlet UIScrollView *scroller;
+}
 
 
 @end
