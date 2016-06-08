@@ -24,188 +24,248 @@
                                             <navigationItem title="GAME OF THRONES" id="9Io-VG-tZg"/>
                                         </items>
                                     </navigationBar>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wKN-S2-Tvh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wKN-S2-Tvh" userLabel="btn_l1">
                                         <rect key="frame" x="145" y="95" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l1Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8A-xv-3YA"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2MW-gV-B4z">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2MW-gV-B4z" userLabel="btn_d1">
                                         <rect key="frame" x="204" y="95" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d1Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yuy-bG-Qmo"/>
+                                        </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_arya_stark.jpg" id="LnS-74-iK2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_arya_stark.jpg" id="LnS-74-iK2" userLabel="img1">
                                         <rect key="frame" x="8" y="70" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="NSL-Gl-DjM">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="NSL-Gl-DjM" userLabel="icn1_f1">
                                         <rect key="frame" x="259" y="92" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bran_stark.jpeg" id="RTX-46-pca">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bran_stark.jpeg" id="RTX-46-pca" userLabel="img2">
                                         <rect key="frame" x="8" y="157" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cersei_lannister.jpeg" id="kkA-jh-OE5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cersei_lannister.jpeg" id="kkA-jh-OE5" userLabel="img3">
                                         <rect key="frame" x="8" y="244" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_daenerys_targaryen.jpg" id="z8w-BC-QeA">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_daenerys_targaryen.jpg" id="z8w-BC-QeA" userLabel="img4">
                                         <rect key="frame" x="8" y="331" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_drogo_hbo.jpg" id="rq9-Zr-Lo6">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_drogo_hbo.jpg" id="rq9-Zr-Lo6" userLabel="img5">
                                         <rect key="frame" x="8" y="418" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_jon_nieve.jpg" id="Yju-Zd-N1q">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_jon_nieve.jpg" id="Yju-Zd-N1q" userLabel="img6">
                                         <rect key="frame" x="8" y="505" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_melisandre.jpg" id="Z0H-9z-ZDY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_melisandre.jpg" id="Z0H-9z-ZDY" userLabel="img7">
                                         <rect key="frame" x="8" y="592" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_ramsay_bolton.jpg" id="qxw-gG-koI">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_ramsay_Bolton.jpg" id="qxw-gG-koI" userLabel="img8">
                                         <rect key="frame" x="8" y="679" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_sansa_stark.png" id="ezN-VZ-FGv">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_sansa_stark.png" id="ezN-VZ-FGv" userLabel="img9">
                                         <rect key="frame" x="8" y="766" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tyrion_lannister.jpg" id="EZh-Wj-ZV1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_tyrion_lannister.jpg" id="EZh-Wj-ZV1" userLabel="img10">
                                         <rect key="frame" x="8" y="853" width="105" height="79"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0R3-LR-Lvb">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0R3-LR-Lvb" userLabel="btn_l2">
                                         <rect key="frame" x="145" y="182" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l2Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ver-bb-z2o"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8ld-k5-SME">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8ld-k5-SME" userLabel="btn_l3">
                                         <rect key="frame" x="145" y="269" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l3Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kMi-nH-qTa"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JlE-E2-P85">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JlE-E2-P85" userLabel="btn_l4">
                                         <rect key="frame" x="145" y="356" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l4Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIV-7R-ssb"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lyc-1V-lFz">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lyc-1V-lFz" userLabel="btn_l5">
                                         <rect key="frame" x="145" y="443" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l5Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zae-2S-LC7"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dsQ-U1-M0p">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dsQ-U1-M0p" userLabel="btn_l6">
                                         <rect key="frame" x="145" y="530" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l6Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XV3-yb-gsi"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="htW-yH-jA6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="htW-yH-jA6" userLabel="btn_l7">
                                         <rect key="frame" x="145" y="617" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l7Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="APW-j1-J3H"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uuO-tT-sa6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uuO-tT-sa6" userLabel="btn_l8">
                                         <rect key="frame" x="145" y="704" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l8Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fzv-QO-6LF"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6u1-xs-zwg">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6u1-xs-zwg" userLabel="btn_l9">
                                         <rect key="frame" x="145" y="791" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l9Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oqk-UA-xle"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ubq-mW-wlA">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ubq-mW-wlA" userLabel="btn_l10">
                                         <rect key="frame" x="145" y="878" width="30" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Live"/>
+                                        <connections>
+                                            <action selector="btn_l10Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="btL-UY-060"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZSb-EQ-jIB">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZSb-EQ-jIB" userLabel="btn_d2">
                                         <rect key="frame" x="204" y="182" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d2Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CBX-d1-fTe"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="57z-7f-8KC">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="57z-7f-8KC" userLabel="btn_d3">
                                         <rect key="frame" x="204" y="269" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d3Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zQA-zs-ouJ"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lzE-I9-BPe">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lzE-I9-BPe" userLabel="btn_d4">
                                         <rect key="frame" x="204" y="356" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d4Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cBK-LA-gJI"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kVr-dy-R5B">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kVr-dy-R5B" userLabel="btn_d5">
                                         <rect key="frame" x="204" y="443" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d5Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EFk-zm-XQK"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h7f-cr-dzk">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h7f-cr-dzk" userLabel="btn_d6">
                                         <rect key="frame" x="204" y="530" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d6Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KCD-Yh-lqH"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UI4-ar-0bP">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UI4-ar-0bP" userLabel="btn_d7">
                                         <rect key="frame" x="204" y="617" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d7Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KOZ-wd-WLv"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fT8-ty-JKF">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fT8-ty-JKF" userLabel="btn_d8">
                                         <rect key="frame" x="204" y="704" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d8Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VnO-PF-5h7"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7D9-d2-uWd">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7D9-d2-uWd" userLabel="btn_d9">
                                         <rect key="frame" x="204" y="791" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d9Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hlm-K6-y3t"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7IW-WQ-P1Q">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7IW-WQ-P1Q" userLabel="btn_d10">
                                         <rect key="frame" x="204" y="878" width="37" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Dead"/>
+                                        <connections>
+                                            <action selector="btn_d10Press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P3J-QV-dbL"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aRK-Eo-M1h">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aRK-Eo-M1h" userLabel="btn_next">
                                         <rect key="frame" x="211" y="956" width="32" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Next"/>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="tY4-Cp-3SZ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="tY4-Cp-3SZ" userLabel="icn1_f2">
                                         <rect key="frame" x="259" y="179" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="1Am-mw-Uds">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="1Am-mw-Uds" userLabel="icn1_f3">
                                         <rect key="frame" x="259" y="266" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="YTh-xe-kdd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="YTh-xe-kdd" userLabel="icn1_f4">
                                         <rect key="frame" x="259" y="353" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="3lO-eC-aEl">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="3lO-eC-aEl" userLabel="icn1_f5">
                                         <rect key="frame" x="259" y="440" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="TZc-f1-kh5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="TZc-f1-kh5" userLabel="icn1_f6">
                                         <rect key="frame" x="259" y="527" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="aso-WD-ehO">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="aso-WD-ehO" userLabel="icn1_f7">
                                         <rect key="frame" x="259" y="614" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="aoL-CJ-cf5">
-                                        <rect key="frame" x="259" y="701" width="41" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="46W-71-4H4">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="46W-71-4H4" userLabel="icn1_f9">
                                         <rect key="frame" x="259" y="788" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="Pjk-XR-Wtd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="aoL-CJ-cf5" userLabel="icn1_f8">
+                                        <rect key="frame" x="259" y="701" width="41" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_no_selected.png" id="Pjk-XR-Wtd" userLabel="icn1_f10">
                                         <rect key="frame" x="259" y="875" width="41" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -217,6 +277,18 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1000"/>
                     <connections>
+                        <outlet property="btn_d1" destination="2MW-gV-B4z" id="W2A-oF-9eq"/>
+                        <outlet property="btn_l1" destination="wKN-S2-Tvh" id="zVR-dt-ZdD"/>
+                        <outlet property="icn1_f1" destination="NSL-Gl-DjM" id="icp-6b-HCZ"/>
+                        <outlet property="icn1_f10" destination="Pjk-XR-Wtd" id="Mbu-74-acn"/>
+                        <outlet property="icn1_f2" destination="tY4-Cp-3SZ" id="rMZ-yx-LQc"/>
+                        <outlet property="icn1_f3" destination="1Am-mw-Uds" id="iMh-Cm-cSJ"/>
+                        <outlet property="icn1_f4" destination="YTh-xe-kdd" id="FMy-Qs-zLG"/>
+                        <outlet property="icn1_f5" destination="3lO-eC-aEl" id="ZDH-rV-mY6"/>
+                        <outlet property="icn1_f6" destination="TZc-f1-kh5" id="c4M-2u-bHo"/>
+                        <outlet property="icn1_f7" destination="aso-WD-ehO" id="lHM-b4-iP0"/>
+                        <outlet property="icn1_f8" destination="aoL-CJ-cf5" id="2rM-04-Vn0"/>
+                        <outlet property="icn1_f9" destination="46W-71-4H4" id="VpN-Ux-V9u"/>
                         <outlet property="scroller" destination="ax8-57-5PU" id="mPa-yg-AET"/>
                     </connections>
                 </viewController>
@@ -231,6 +303,58 @@
                     <view key="view" contentMode="scaleToFill" id="0pa-Ls-dOQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="uXc-mG-XAX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <navigationBar contentMode="scaleToFill" id="rFB-Tr-Ota">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <items>
+                                            <navigationItem title="GAME OF THRONES" id="Cv0-4b-s16"/>
+                                        </items>
+                                    </navigationBar>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corrects" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tm4-Kp-mdQ">
+                                        <rect key="frame" x="160" y="108" width="67" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU ARE GAME OF THRONES MASTER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rfb-7F-SS0">
+                                        <rect key="frame" x="4" y="284" width="312" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rov-VE-uZR">
+                                        <rect key="frame" x="88" y="379" width="164" height="127"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="B0b-74-rMc">
+                                        <rect key="frame" x="45" y="105" width="35" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="YXu-wd-nCC">
+                                        <rect key="frame" x="109" y="105" width="35" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1cu-ZN-ikm">
+                                        <rect key="frame" x="95" y="108" width="6" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -250,7 +374,7 @@
         <image name="img_drogo_hbo.jpg" width="800" height="1202"/>
         <image name="img_jon_nieve.jpg" width="1024" height="682"/>
         <image name="img_melisandre.jpg" width="574" height="641"/>
-        <image name="img_ramsay_bolton.jpg" width="411" height="667"/>
+        <image name="img_ramsay_Bolton.jpg" width="411" height="667"/>
         <image name="img_sansa_stark.png" width="728" height="977"/>
         <image name="img_tyrion_lannister.jpg" width="300" height="450"/>
     </resources>
